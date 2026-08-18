@@ -359,7 +359,7 @@ When in doubt, do not guess.
         if content:
             full_answer += content
             yield content
-            time.sleep(0.05)
+            time.sleep(0.02)
 
      # Save conversation AFTER streaming is complete
     conversation_history.append({
