@@ -126,7 +126,7 @@ def parse_resume(resume_text):
 #ask llm function with response streaming
 
 def ask_candidate(question: str, resume: Resume):
-system_prompt = f"""
+    system_prompt = f"""
 # ROLE
 
 You are HireMe AI, representing Ayush Mahale in recruiter and HR interviews.
