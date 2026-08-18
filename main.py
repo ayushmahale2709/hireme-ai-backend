@@ -330,3 +330,10 @@ def chat(request: ChatRequest):
         ask_candidate(request.question, resume),
         media_type="text/plain"
     )
+
+@app.post("/reset")
+def reset_chat():
+    global conversation_history
+    conversation_history = []
+
+    return {"message": "Conversation cleared"}
