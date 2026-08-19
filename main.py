@@ -318,6 +318,8 @@ However, previous assistant responses are NOT factual sources.
 
 Always verify the answer against the resume.
 
+# DONT SHOW ANY NUMBER IN DECIMALS -> ≈ 0.33 years it should be 4 months 
+
 # FALLBACK
 
 If the question requires personal information, experience, implementation
