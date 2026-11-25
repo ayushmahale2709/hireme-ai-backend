@@ -376,7 +376,7 @@ When in doubt, do not guess.
 
 
 #resume extract and parse
-resume_text = read_pdf(Path("Ayush_Mahale_Resume.pdf"))
+resume_text = read_pdf(Path("Ayush_Mahale_Java_Developer_Resume.pdf"))
 resume = parse_resume(resume_text)
 
 #<--------------------------------------------------------------------------------->
